@@ -1,0 +1,114 @@
+/* 
+ANANTHULA,VINEETH KUMAR  - 1001953922
+EARATI,PAVANI  – 1001953926  
+BHATTARAM,SAI SANTHOSH  – 1001874167 */
+
+/*Some styles have been referred from W3Schools https://www.w3schools.com/ */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+.body-service{
+  margin-top: 50px;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  background: #f2f2f2;
+  text-align: center;
+  margin-bottom: 200px;
+}
+.container{
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-bg{
+    height: 40vh;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: rgb(12, 1, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-bg h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.contact-bg h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding: 0.4rem 0;
+    letter-spacing: 4px;
+}
+.card3{
+  height: 200px;
+  max-width: 250px;
+  margin: 0 20px;
+  background: rgb(235, 221, 230);
+  transition: 0.4s;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+.card3:hover{
+  height: 470px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+
+.card3 .top-text{
+  padding: 5px;
+}
+.card3 .top-text .name{
+  font-size: 25px;
+  font-weight: 600;
+  color: #202020;
+}
+.card3 .bottom-text{
+  padding: 0 20px 10px 20px;
+  margin-top: 5px;
+  background: rgb(235, 221, 230);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.1s;
+}
+
+.card3:hover .bottom-text{
+  opacity: 1;
+  visibility: visible;
+}
+.card3 .bottom-text .text{
+  text-align: justify;
+}
+.card3 .bottom-text .btn{
+  margin: 10px 0;
+  text-align: left;
+}
+.card3 .bottom-text .btn a{
+  text-decoration: none;
+  background: #e74c3c;
+  color: #f2f2f2;
+  padding: 5px 8px;
+  border-radius: 3px;
+  display: inline-flex;
+  transition: 0.2s;
+}
+.card3 .bottom-text .btn a:hover{
+  transform: scale(0.9);
+}
+@media screen and (max-width: 978px) {
+  .container{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .card3{
+    max-width: 700px;
+    margin: 20px 0;
+  }
+}

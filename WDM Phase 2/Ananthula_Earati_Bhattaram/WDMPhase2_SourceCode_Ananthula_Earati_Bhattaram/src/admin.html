@@ -1,0 +1,167 @@
+<!-- ANANTHULA,VINEETH KUMAR  - 1001953922
+EARATI,PAVANI  – 1001953926  
+BHATTARAM,SAI SANTHOSH  – 1001874167 -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>InstaWash</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel = "icon" href ="../Images/logo.png" type = "image/x-icon">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="../css/manage.css">
+     <link rel="stylesheet" href="../css/admin.css">
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
+   </head>
+   <body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <img src="../Images/logo.png" alt="logo" width="70" height="40">
+      <span class="logo_name">InstaWash</span>
+    </div>
+     <ul class="nav-links">
+        <li>
+          <a href="AdminDashboard.html" class="active">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name">Dashboard</span>
+          </a>
+        </li>
+         <li>
+          <a href="Manage.html">
+            <i class='bx bx-user' ></i>
+            <span class="links_name">Manage</span>
+          </a>
+        </li>
+          <li>
+          <a href="./admin.html">
+            <i class='bx bx-pie-chart-alt-2' ></i>
+            <span class="links_name">Reports</span>
+          </a>
+        </li> 
+        <li class="log_out">
+        <a href="./index.html">
+          <i class='bx bx-log-out'></i>
+          <span class="links_name">Log out</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <section class="home-section">
+    <nav>
+      <div class="sidebar-button">
+        <i class='bx bx-menu sidebarBtn'></i>
+        <span class="dashboard">Dashboard</span>
+      </div>
+      <div class="profile-details">
+        <span class="admin_name">Sai Santhosh</span>
+        <i class='bx bx-chevron-down' ></i>
+      </div>
+
+    </nav>
+<div class="body-content">
+
+
+<div id="flex-container">
+     <div class="flex-graph">
+     <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+</div>
+</div>
+<script type="text/javascript" src="../Js/admin.js"></script>
+<div id="flex-container">
+        <div class="flex-item">
+             <h3>Total Visits</h3>
+             <p>2500</p>
+        </div>
+        <div class="flex-item">
+             <h3>Total Sales</h3>
+             <p>$15455.500</p>
+        </div>
+        <div class="flex-item">
+             <h3>Tasks Done</h3>
+             <p>1600</p>
+        </div>
+        <div class="flex-item">
+             <h3>Employees</h3>
+             <p>40</p>
+        </div>
+    </div>
+
+<div class="row">
+  <div class="column">
+    <table>
+     <h4>Monthly Sales Performance(2021)</h4>
+      <tr>
+        <th>Month</th>
+        <th>Sales</th>
+      </tr>
+      <tr>
+        <td>May</td>
+        <td>400</td>
+      </tr>
+      <tr>
+        <td>June</td>
+        <td>250</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>190</td>
+      </tr>
+      <tr>
+        <td>August</td>
+        <td>230</td>
+      </tr>
+      <tr>
+        <td>September</td>
+        <td>160</td>
+      </tr>
+      <tr>
+        <td>October</td>
+        <td>140</td>
+      </tr>
+    </table>
+  </div>
+  <div class="column">
+    <table>
+     <h4>Services by Employee - September(2021) </h4>
+      <tr>
+        <th>Employee Id</th>
+        <th>Name</th>
+        <th>No. of Orders Processed</th>
+      </tr>
+      <tr>
+        <td>E15000</td>
+        <td>Jackson</td>
+        <td>45</td>
+      </tr>
+      <tr>
+        <td>E165032</td>
+        <td>Johnson</td>
+        <td>40</td>
+      </tr>
+      <tr>
+        <td>E165034</td>
+        <td>James</td>
+        <td>40</td>
+      </tr>
+      <tr>
+        <td>E165042</td>
+        <td>Rahul</td>
+        <td>36</td>
+      </tr>
+      <tr>
+        <td>E165062</td>
+        <td>Tim</td>
+        <td>35</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+</div>
+  </section>
+
+</body>
+</html>

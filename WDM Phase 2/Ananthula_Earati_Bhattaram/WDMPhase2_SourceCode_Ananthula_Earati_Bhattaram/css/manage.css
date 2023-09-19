@@ -1,0 +1,158 @@
+/* 
+ANANTHULA,VINEETH KUMAR  - 1001953922
+EARATI,PAVANI  – 1001953926  
+BHATTARAM,SAI SANTHOSH  – 1001874167 */
+
+/*Some styles have been referred from W3Schools https://www.w3schools.com/ */
+
+body, html{
+    font-size: 100%;
+    font-family: "Helvetica", sans-serif;
+}
+body,html{
+    margin:0;
+    padding: 0;
+}
+
+
+
+/*Styling for large devices*/
+
+@media only screen and (min-width: 30em){
+    nav{
+        display: flex;
+        justify-content: space-between;
+        background: #222;
+        align-items: center;
+    }
+    
+    nav ul{
+        display: flex;
+        align-items: center;
+        background:none;
+        flex-wrap: wrap;
+    }
+    nav div:first-child h1{
+        padding: 0;
+        margin:0 1rem;
+    }
+    nav div:first-child img{
+        height: 40px;
+        
+    }
+    nav ul li{
+        border-bottom:none;
+        flex: 1 0 auto;
+        position: relative;
+    }
+    nav ul li a{
+        padding:1.2rem 1rem;
+    }
+    nav ul li a::before, nav ul li a::after{
+        content: "";
+        position: absolute;
+        bottom:0;
+        right: 0;
+        width:0%;
+        height: 2px;
+        background:red;
+        transition: .2s width ease-in-out;
+    }
+    
+    nav ul li a::before{
+        left:0;
+    }
+    
+    nav ul li a:hover::after,nav ul li a:hover::before{
+        width: 50%;
+    } 
+   
+}
+
+
+*{
+  box-sizing: border-box;
+}
+
+.row {
+    margin-top: 30px;
+}
+  
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    float: left;
+    width: 100%;
+    padding: 5px;
+  }
+}
+
+h4 {
+    margin-block-end: 0 !important;
+}
+
+input {
+    height: 40px;
+}
+
+select {
+    height: 40px;
+    width: 100%;
+}
+
+button {
+    display: block; margin: 0 0 3px; font-size: 1.2em; font-weight: bold;
+}
+
+.listItems {
+ margin-left: 75%;
+ margin-top: 30px;
+}
+
+.body-content
+{
+    padding-left: 10px;
+    margin-left: 10px;
+    background-color: white;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+.input {
+    height: 40px;
+    }
+}
+
+.saveButton{
+    background-color:#222;color:white;
+    width: 100%;
+}
+

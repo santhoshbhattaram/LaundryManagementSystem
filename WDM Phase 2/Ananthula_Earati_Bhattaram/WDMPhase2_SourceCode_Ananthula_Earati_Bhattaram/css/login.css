@@ -1,0 +1,97 @@
+/* 
+ANANTHULA,VINEETH KUMAR  - 1001953922
+EARATI,PAVANI  – 1001953926  
+BHATTARAM,SAI SANTHOSH  – 1001874167 */
+
+/*Some styles have been referred from W3Schools https://www.w3schools.com/ */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+
+.login-form,
+.login-form * {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.login-form {
+    max-width: 350px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom:50px ;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+
+}
+
+.login-form__logo-container {
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.login-form__logo {
+    display: block;
+    max-width: 125px;
+    margin: 0 auto;
+}
+
+.login-form__content {
+    padding: 30px;
+    background: #eeeeee;
+
+}
+
+.login-form__header {
+    margin-bottom: 15px;
+    text-align: center;
+    color: #333333;
+}
+
+.login-form__input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #dddddd;
+    background: #ffffff;
+    outline: none;
+    transition: border-color 0.5s;
+}
+
+.login-form__input:focus {
+    border-color: #009578;
+}
+
+.login-form__input::placeholder {
+    color: #aaaaaa;
+
+}
+
+.login-form__button {
+    padding: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    background: #f7327a;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form__button:active {
+    background: #f7327a;
+
+}
+
+.login-form__links {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.login-form__link {
+    font-size: 0.9em;
+    color: #f7327a;
+    text-decoration: none;
+}

@@ -1,0 +1,84 @@
+<!-- ANANTHULA,VINEETH KUMAR  - 1001953922
+EARATI,PAVANI  – 1001953926  
+BHATTARAM,SAI SANTHOSH  – 1001874167 -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>InstaWash</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/aboutus.css">
+        <link rel="stylesheet" href="../css/home.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        <link rel = "icon" href ="../Images/logo.png" type = "image/x-icon">
+        <link rel="stylesheet" href="../css/chat.css">
+        <script src="../Js/chat.js"></script>
+    </head>
+
+    <body>
+     <nav> 
+       <div>
+           <h1><a href="#"><img src="../Images/logo.png" alt="logo" width="70" height="40"></a>InstaWash</h1>
+       </div>
+       
+       <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Login/Register</a></li>
+        </ul>
+       
+   </nav>
+        <section>
+            <div class = "image">
+               <img src="../Images/Laundry.jpeg">
+            </div>
+
+            <div class = "content">
+                <h2>About Us</h2>
+                <span><!-- line here --></span>
+                <p>Our family-possessed wash n’ crease central station in Arlington, has been conveying nearby cleaning and laundry administrations to cheerful clients for more than 20 years. We have as of late extended our administrations to incorporate internet requesting and an assortment of get and conveyance choices to suit our clients needs.
+                    
+                    The outcome:
+                    
+                    Imaginative laundry administrations ideal for your bustling way of life.
+                    
+                    </p>
+                <ul class = "links">
+                    <li><a href = "services.html">service</a></li>
+                    <div class = "vertical-line"></div>
+                    <li><a href = "contact.html">contact</a></li>
+                </ul>
+            </div>
+        </section>
+    </body>
+
+      <div class = "contact-footer">
+        <h3>Follow Us</h3>
+        <div class = "social-links">
+          <a href = "#" class = "fab fa-facebook-f"></a>
+          <a href = "#" class = "fab fa-twitter"></a>
+          <a href = "#" class = "fab fa-instagram"></a>
+          <a href = "#" class = "fab fa-linkedin"></a>
+          <a href = "#" class = "fab fa-youtube"></a>
+        </div>
+      </div>
+<button class="open-button" onclick="openForm()">Chat with us</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+    
+</html>

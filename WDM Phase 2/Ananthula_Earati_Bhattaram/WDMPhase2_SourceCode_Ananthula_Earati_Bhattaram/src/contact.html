@@ -1,0 +1,123 @@
+<!-- ANANTHULA,VINEETH KUMAR  - 1001953922
+EARATI,PAVANI  – 1001953926  
+BHATTARAM,SAI SANTHOSH  – 1001874167 -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>InstaWash</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel = "icon" href ="../Images/logo.png" type = "image/x-icon">
+    <link rel="stylesheet" href="../css/chat.css">
+    <script src="../Js/chat.js"></script>
+  </head>
+  <body class="contact-body">
+<!-- Navigation bar-->
+ <nav> 
+       <div>
+           <h1><a href="#"><img src="../Images/logo.png" alt="logo" width="70" height="40"></a>InstaWash</h1>
+       </div>
+       
+       <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Login/Register</a></li>
+        </ul>
+       
+   </nav>
+    
+    <section class = "contact-section">
+      <div class = "contact-bg">
+        <h3>Get in Touch with Us</h3>
+        <h2>contact us</h2>
+        <div class = "line">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <p class = "text">Your laundry service provider is just a phone call away.</p>
+      </div>
+
+
+      <div class = "contact-body">
+        <div class = "contact-info">
+          <div>
+            <span><i class = "fas fa-mobile-alt"></i></span>
+            <span>Phone No.</span>
+            <span class = "text">1-2392-23928-2</span>
+          </div>
+          <div>
+            <span><i class = "fas fa-envelope-open"></i></span>
+            <span>E-mail</span>
+            <span class = "text">service@laundry.com</span>
+          </div>
+          <div>
+            <span><i class = "fas fa-map-marker-alt"></i></span>
+            <span>Address</span>
+            <span class = "text">1008 greek row Dr, Arlington TX, United States</span>
+          </div>
+          <div>
+            <span><i class = "fas fa-clock"></i></span>
+            <span>Opening Hours</span>
+            <span class = "text">Monday - Friday (9:00 AM to 5:00 PM)</span>
+          </div>
+        </div>
+
+        <div class = "contact-form">
+          <form>
+            <div>
+              <input type = "text" class = "form-control" placeholder="First Name">
+              <input type = "text" class = "form-control" placeholder="Last Name">
+            </div>
+            <div>
+              <input type = "email" class = "form-control" placeholder="E-mail">
+              <input type = "text" class = "form-control" placeholder="Phone">
+            </div>
+            <textarea rows = "5" placeholder="Message" class = "form-control"></textarea>
+            <input type = "submit" class = "send-btn" value = "send message">
+          </form>
+
+          <div>
+            <img src = "../Images/contact.png" alt = "">
+          </div>
+        </div>
+      </div>
+
+      
+
+      <div class = "contact-footer">
+        <h3>Follow Us</h3>
+        <div class = "social-links">
+          <a href = "#" class = "fab fa-facebook-f"></a>
+          <a href = "#" class = "fab fa-twitter"></a>
+          <a href = "#" class = "fab fa-instagram"></a>
+          <a href = "#" class = "fab fa-linkedin"></a>
+          <a href = "#" class = "fab fa-youtube"></a>
+        </div>
+      </div>
+    </section>
+<button class="open-button" onclick="openForm()">Chat with us</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+    
+
+  </body>
+  </html>

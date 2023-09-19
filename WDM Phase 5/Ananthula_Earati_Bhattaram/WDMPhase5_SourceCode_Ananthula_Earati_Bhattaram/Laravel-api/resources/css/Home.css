@@ -1,0 +1,78 @@
+/* 
+ANANTHULA,VINEETH KUMAR  - 1001953922
+EARATI,PAVANI  – 1001953926  
+BHATTARAM,SAI SANTHOSH  – 1001874167 */
+
+.margin-align {
+    text-align: center;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding-bottom: 6px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {
+    margin: 0 -5px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+    .margin-align {
+      text-align: center;
+      margin-right: 0%;
+      margin-left: 0%;
+      padding-bottom: 6px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px 16px 0 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px 16px 0 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  .responsive,
+  .responsive1 {
+    width: 100%;
+    height: auto;
+  }
+  .fbackground {
+    list-style: none;
+    padding: 0;
+    background: #222;
+    color: #ddd;
+  }
+  .ftext {
+    text-align: center;
+  }
+  
