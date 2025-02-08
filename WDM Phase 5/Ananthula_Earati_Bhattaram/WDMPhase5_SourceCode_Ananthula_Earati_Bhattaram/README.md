@@ -88,8 +88,5 @@ Pasword: mbjr@2108
 User Name: admin@instawash.com	
 Password : admin12345
 
-## User Credentials
 
-User Name: santhoshbhattaram@gmail.com
-Password: mbjr@2018
 
